@@ -140,7 +140,7 @@ end
 
 -- 起動アニメーションを実行
 pcall(playStartupAnimation)
-print("🌸さくらhub - 起動アニメーション完了！")
+print("りなっくすhub - 起動アニメーション完了！")
 
 -- Orion UI 読み込み
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/jadpy/suki/refs/heads/main/orion"))()
@@ -194,7 +194,7 @@ local function closeOrionUI()
         wait()
         collectgarbage()
         
-        print("🌸さくらhub KeySystem - Orion UIを閉じました")
+        print("りなっくすHub KeySystem - Orion UIを閉じました")
     end
 end
 
@@ -228,7 +228,7 @@ end
 local function createGUI()
     -- ウィンドウ作成
     OrionWindow = OrionLib:MakeWindow({
-        Name = "🌸さくらhub🌸",
+        Name = "りなっくすHub",
         HidePremium = true,
         SaveConfig = false,
         ConfigFolder = "SakuraHub"
@@ -327,7 +327,7 @@ local function createGUI()
     })
 
     -- 詳細タブの要素
-    InfoTab:AddParagraph("🌸さくらhub🌸", "Key System - 正式版")
+    InfoTab:AddParagraph("りなっくすHub", "Key System - 正式版")
     InfoTab:AddParagraph("", "") -- スペース
     
     InfoTab:AddParagraph("提供", "製作コミュニティ: 土星コミュニティ")
@@ -375,7 +375,7 @@ local function createGUI()
 
     -- 初期メッセージ
     OrionLib:MakeNotification({
-        Name = "🌸さくらhub🌸 へようこそ！",
+        Name = "りなっくすHub へようこそ！",
         Content = "Keyを入力してメインスクリプトをアンロックしてください",
         Image = "rbxassetid://4483345998",
         Time = 5
@@ -389,6 +389,6 @@ end
 createGUI()
 
 -- ヒントメッセージ
-print("🌸さくらhub KeySystem v0.5")
+print("りなっくすHub KeySystem v0.5")
 print("Keyを入力してメインスクリプトをアンロックしてください")
 print("正しいキーを入力すると、メインスクリプトが読み込まれ、KeySystemは閉じます")
