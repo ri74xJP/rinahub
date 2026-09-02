@@ -1,5 +1,5 @@
 -- 1. WindUIの読み込み
-local WindUI = loadstring(game:HttpGet("https://github.com"))()
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 -- 2. サービスの取得
 local workspaceService = cloneref(game:GetService("Workspace"))
