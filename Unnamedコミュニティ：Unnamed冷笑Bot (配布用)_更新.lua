@@ -1,5 +1,5 @@
 -- ==========================================
--- UnnamedHUB ✦ RAINBOW
+-- BegaHUB ✦ RAINBOW
 -- ==========================================
 local success, OrionLib = pcall(function()
     return loadstring(game:HttpGet("https://raw.githubusercontent.com/jadpy/suki/refs/heads/main/orion"))()
@@ -28,7 +28,7 @@ if OrionLib.Themes then
 end
 
 local Window = OrionLib:MakeWindow({
-    Name = "UnnamedHUB ✦ RAINBOW",
+    Name = "BegaHUB ✦ RAINBOW",
     HidePremium = false,
     SaveConfig = false,
     ConfigFolder = "DaisanHubConfig",
